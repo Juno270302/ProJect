@@ -1,0 +1,16 @@
+/* MenuAdmin.css */
+.menu-container {
+  transition: width 0.5s ease;
+  height: 100vh;
+  border-right: 2px solid rgb(226, 221, 221);
+  border-top: 2px solid rgb(226, 221, 221);
+  background-color: white;
+}
+
+.menu-container.collapsed {
+  width: 3%;
+}
+
+.menu-container.expanded {
+  width: 15%;
+}
